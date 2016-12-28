@@ -1,7 +1,7 @@
 FROM debian:jessie
 MAINTAINER Yong Wen Chua <me@yongwen.xyz>
 
-ENV RUST_VERSION=1.13.0
+ENV RUST_VERSION=1.14.0
 
 RUN set -x \
     && apt-get update \
@@ -17,8 +17,8 @@ RUN set -x \
     && /tmp/rustup.sh  --disable-sudo --yes --revision="${RUST_VERSION}" \
     && rm /tmp/rustup.sh \
     && apt-get remove -y --auto-remove curl \
-    && apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 WORKDIR /app/src
 
