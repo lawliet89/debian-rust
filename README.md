@@ -1,4 +1,8 @@
-# debian-rust
+# debian-rust \[DEPRECATED]
+
+_This repository is deprecated. Use [`rust-s2i`](https://github.com/lawliet89/rust-s2i) instead which pretty much
+does the same thing._
+
 A Debian image with Rust installed to compile and run Rust applications
 
 This is published on [Dockerhub](https://hub.docker.com/r/lawliet89/debian-rust/).
