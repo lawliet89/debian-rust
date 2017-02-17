@@ -1,20 +1,17 @@
-# debian-rust \[DEPRECATED]
-
-_This repository is deprecated. Use [`rust-s2i`](https://github.com/lawliet89/rust-s2i) instead which pretty much
-does the same thing._
+# debian-rust
 
 A Debian image with Rust installed to compile and run Rust applications
 
 This is published on [Dockerhub](https://hub.docker.com/r/lawliet89/debian-rust/).
 
 ## Tags
- - `1.14.0`, `latest` ([`Dockerfile`](https://github.com/lawliet89/debian-rust/blob/master/Dockerfile))
+ - `1.15.1`, `latest` ([`Dockerfile`](https://github.com/lawliet89/debian-rust/blob/master/Dockerfile))
 
 ## Usage
 An example Dockerfile might be:
 
 ```Dockerfile
-FROM lawliet89/debian-rust:1.14.0
+FROM lawliet89/debian-rust:1.15.1
 
 COPY Cargo.toml Cargo.lock ./
 RUN cargo fetch
