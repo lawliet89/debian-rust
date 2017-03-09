@@ -1,7 +1,7 @@
 FROM debian:jessie
 MAINTAINER Yong Wen Chua <me@yongwen.xyz>
 
-ENV RUST_VERSION=1.15.1
+ARG RUST_VERSION=1.15.1
 
 RUN set -x \
     && apt-get update \
