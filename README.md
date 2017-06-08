@@ -9,7 +9,7 @@ This is published on [Dockerhub](https://hub.docker.com/r/lawliet89/docker-rust/
 
 ## Tags
 
-- `1.17.0`, `latest` ([`Dockerfile`](https://github.com/lawliet89/docker-rust/blob/master/Dockerfile))
+- `1.17.0`, `v1.7.0`, `latest` ([`Dockerfile`](https://github.com/lawliet89/docker-rust/blob/master/Dockerfile))
 
 ## Usage
 
