@@ -37,8 +37,6 @@ CMD [/app/your_application_name_here]
 
 ```
 
-
-
 ### Target `x86_64-unknown-linux-musl`
 
 ```dockerfile
