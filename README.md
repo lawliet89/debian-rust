@@ -1,4 +1,4 @@
-# debian-rust
+# docker-rust
 
 A Docker image that allows building of Rust applications for Linux machines.
 
@@ -16,7 +16,7 @@ This is published on [Dockerhub](https://hub.docker.com/r/lawliet89/docker-rust/
 [Multi-stage builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) are recommended
 so that the final image will be as small and compact as possible. This is demonstrated in the examples below.
 
-### Target `x86_64-unknown-linux-gnu
+### Target `x86_64-unknown-linux-gnu`
 
 ```dockerfile
 FROM lawliet89/docker-rust:1.17.0 as builder
@@ -39,7 +39,7 @@ CMD [/app/your_application_name_here]
 
 
 
-### Target `x86_64-unknown-linux-musl
+### Target `x86_64-unknown-linux-musl`
 
 ```dockerfile
 FROM lawliet89/docker-rust:1.17.0 as builder
