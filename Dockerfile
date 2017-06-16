@@ -1,4 +1,4 @@
-FROM japaric/x86_64-unknown-linux-musl:v0.1.10
+FROM japaric/x86_64-unknown-linux-musl:v0.1.11
 MAINTAINER Yong Wen Chua <me@yongwen.xyz>
 ENV PATH "/root/.cargo/bin:${PATH}"
 
