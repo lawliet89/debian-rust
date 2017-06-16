@@ -9,7 +9,7 @@ This is published on [Dockerhub](https://hub.docker.com/r/lawliet89/docker-rust/
 
 ## Tags
 
-- `1.17.0`, `v1.7.0`, `latest` ([`Dockerfile`](https://github.com/lawliet89/docker-rust/blob/master/Dockerfile))
+- `1.18.0`, `v1.18.0`, `latest` ([`Dockerfile`](https://github.com/lawliet89/docker-rust/blob/master/Dockerfile))
 
 ## Usage
 
@@ -19,7 +19,7 @@ so that the final image will be as small and compact as possible. This is demons
 ### Target `x86_64-unknown-linux-gnu`
 
 ```dockerfile
-FROM lawliet89/docker-rust:1.17.0 as builder
+FROM lawliet89/docker-rust:1.18.0 as builder
 
 WORKDIR /app/src
 COPY Cargo.toml Cargo.lock ./
