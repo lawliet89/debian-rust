@@ -19,7 +19,7 @@ so that the final image will be as small and compact as possible. This is demons
 ### Target `x86_64-unknown-linux-gnu`
 
 ```dockerfile
-FROM lawliet89/docker-rust:1.18.0 as builder
+FROM lawliet89/docker-rust:1.19.0 as builder
 
 WORKDIR /app/src
 COPY Cargo.toml Cargo.lock ./
@@ -40,7 +40,7 @@ CMD [/app/your_application_name_here]
 ### Target `x86_64-unknown-linux-musl`
 
 ```dockerfile
-FROM lawliet89/docker-rust:1.17.0 as builder
+FROM lawliet89/docker-rust:1.19.0 as builder
 
 ARG ARCHITECTURE=x86_64-unknown-linux-musl
 WORKDIR /app/src
